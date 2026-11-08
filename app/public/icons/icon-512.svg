@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#0f1115" />
+  <circle cx="256" cy="256" r="160" fill="#181b22" stroke="#2563eb" stroke-width="16" />
+  <circle cx="256" cy="256" r="64" fill="#2563eb" />
+  <rect x="204" y="214" width="20" height="84" rx="10" fill="#ffffff" />
+  <rect x="246" y="180" width="20" height="152" rx="10" fill="#ffffff" />
+  <rect x="288" y="230" width="20" height="52" rx="10" fill="#ffffff" />
+  <!-- Wave rings -->
+  <path d="M 120 256 A 136 136 0 0 1 392 256" fill="none" stroke="#3b82f6" stroke-width="10" stroke-dasharray="20 20" opacity="0.6"/>
+</svg>

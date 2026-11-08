@@ -1,0 +1,20 @@
+{
+  "name": "fake-radio",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/simulator.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/simulator.js",
+    "broker": "tsc && node dist/broker.js"
+  },
+  "dependencies": {
+    "@aavritti/shared": "workspace:*",
+    "aedes": "^0.51.2",
+    "mqtt": "^5.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

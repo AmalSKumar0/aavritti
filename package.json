@@ -1,0 +1,25 @@
+{
+  "name": "aavritti",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade cloud controller & dashboard for ESP32 Internet Radio",
+  "scripts": {
+    "dev": "pnpm --filter app dev",
+    "dev:all": "pnpm --parallel --filter fake-radio --filter app dev",
+    "build": "pnpm --filter @aavritti/shared build && pnpm --filter app build",
+    "build:shared": "pnpm --filter @aavritti/shared build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "hash-password": "node tools/hash-password.js",
+    "simulator": "pnpm --filter fake-radio start",
+    "broker": "pnpm --filter fake-radio broker"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.2",
+    "bcryptjs": "^2.4.3",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "aavritti-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aavritti/shared": "workspace:*",
+    "@tanstack/react-query": "^5.62.7",
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.468.0",
+    "mqtt": "^5.10.3",
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.10.2",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  }
+}
