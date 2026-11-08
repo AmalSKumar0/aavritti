@@ -4,9 +4,9 @@
   "private": true,
   "description": "Production-grade cloud controller & dashboard for ESP32 Internet Radio",
   "scripts": {
-    "dev": "pnpm --filter app dev",
-    "dev:all": "pnpm --parallel --filter fake-radio --filter app dev",
-    "build": "pnpm --filter @aavritti/shared build && pnpm --filter app build",
+    "dev": "pnpm --filter aavritti-app dev",
+    "dev:all": "pnpm --parallel --filter fake-radio --filter aavritti-app dev",
+    "build": "pnpm --filter @aavritti/shared build && pnpm --filter aavritti-app build",
     "build:shared": "pnpm --filter @aavritti/shared build",
     "test": "vitest run",
     "test:watch": "vitest",
